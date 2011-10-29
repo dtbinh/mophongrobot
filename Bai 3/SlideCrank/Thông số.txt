@@ -1,0 +1,7 @@
+﻿Các thông số chính của cơ cấu:
+Chiều dài tay quay: l1=45
+Chiều dài thanh chuyền: l2=140
+
+Vị trí cuối tay quay: xA=l1*cos(phi); yA=l1*sin(phi)
+Góc thanh truyền: psi = asin(l1/l2*sin(phi))
+Ví trí con trượt: xB = l1*cos(phi)+l2*cos(psi)

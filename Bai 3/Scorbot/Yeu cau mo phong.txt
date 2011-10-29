@@ -1,0 +1,8 @@
+﻿Yêu cầu mô phỏng robot
+===============================================================
+
+Sử dụng các thông tin trong thư mục này làm xuất phát điểm để mô phỏng robot Scorbot bằng OpenGL. Nên chia làm hai bước:
+
+1. Mô phỏng động học thuận: cho quy luật chuyển động của từng khâu (lần lượt hoặc đồng thời), ghi dữ liệu vị trí các khâu dưới dạng ma trận chuyển vị, rồi dùng OpenGL vẽ lại.
+
+2. Mô phỏng động học ngược: chọn ra một quỹ đạo của điểm tác động cuối của robot, xác định chuyển động của từng khâu bằng cách giải bài toán động học ngược, ghi dữ liệu vị trí các khâu dưới dạng ma trận chuyển vị, rồi dùng OpenGL vẽ lại.
